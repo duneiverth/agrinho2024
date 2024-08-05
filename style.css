@@ -31,7 +31,7 @@
   }
   
   .colegio{
-          background-image: linear-gradient( rgb(111, 111, 235), white);
+          background-image: linear-gradient( rgb(111, 111, 235) 85%, white 15%);
           display: flex;
           justify-content: center;
           align-items: center;
