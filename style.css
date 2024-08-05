@@ -20,11 +20,20 @@
         padding: 24px 0;   
         font-size: 20px; 
   }
+
+  .colegio{
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+}
+
   .item-um{
       display: inline-block;
       margin: 0 20px;
       font-size: 30px;
-      font-family:Playfair Display ;
+      font-family: Playfair Display;
       color: black;
   
   }
@@ -35,13 +44,7 @@
            
   }
   
-  .colegio{
-          background-image: linear-gradient(var(--cor-de-fundo 75%, --branco 25%));
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 20px 0; 
-  }
+  
   .colegio-div{
       width: 25%;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
