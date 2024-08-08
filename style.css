@@ -11,9 +11,6 @@
   --preto:#000000;
 }
 
-body{
-  background-color: linear(to botton, #ffffff, #000000);
-}
 .começo {
         background-color: var(--cor-de-fundo);
         color: black;
