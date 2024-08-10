@@ -1,0 +1,10 @@
+.content{
+    display: none;
+}
+.content.show{
+    display: flex;
+}
+.imagem{
+    width: 50%;
+    height: 250px;
+}
