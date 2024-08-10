@@ -1,6 +1,6 @@
 const botao = document.querySelector('.botao-1');
 
-botao.forEach(botao => botaos.addEventListener('click'), () => botaoClicked(botao));
+botoes.forEach(botao => botao.addEventListener('click'), () => botaoClicked(botao));
 
 const botaoClicked = (botao) => {
     const contents = document.querySelector('content');
