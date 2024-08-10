@@ -1,15 +1,16 @@
-const botoes = document.querySelector('.botao-1');
+const botoes = document.querySelectorAll('.botao-1'); // Usa querySelectorAll para selecionar múltiplos botões
 
-botoes.forEach(botao => botao.addEventListener('click', () => botaoClicked(botao)));
-
+botoes.forEach(botao => botao.addEventListener('click', () => botaoClicked(botao))); // Adiciona o evento de clique
 
 const botaoClicked = (botao) => {
-    const contents = document.querySelector('content');
+    const contents = document.querySelectorAll('.content'); // Selecione todos os elementos com a classe 'content'
 
-    contents.forEach(content => content.classlist.remove('show'));
+    contents.forEach(content => content.classList.remove('show')); // Corrige classList
 
-    const contentid = tab.getAttribute('content-id');
+    const contentid = botao.getAttribute('content-id'); // Corrige para usar 'botao'
     const content = document.getElementById(contentid);
 
-    content.classList.add('show');
-} 
+    if (content) {
+        content.classList.add('show'); // Adiciona a classe 'show' se o conteúdo existir
+    }
+};
