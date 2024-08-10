@@ -1,4 +1,4 @@
-const botao = document.querySelector('.botao-1');
+const botoes = document.querySelector('.botao-1');
 
 botoes.forEach(botao => botao.addEventListener('click'), () => botaoClicked(botao));
 
