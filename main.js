@@ -5,9 +5,10 @@ botao.forEach(botao => botao.addEventListener('click'), () => botaoClicked(botao
 const botaoClicked = (botao) => {
     const content = document.querySelector('content');
 
-    content.forEach(content => content.classlist.remove('show'));
+    contents.forEach(content => content.classlist.remove('show'));
 
     const contentid = tab.getAttribute('content-id');
+    const content = document.getElementById(contentid);
 
-    console.log(contentId);
-}
+    content.classList.add('show');
+} 
