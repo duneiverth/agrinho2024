@@ -7,10 +7,9 @@ const botaoClicked = (botao) => {
 
     contents.forEach(content => content.classList.remove('show')); // Corrige classList
 
-    const contentid = botao.getAttribute('content-id'); // Corrige para usar 'botao'
+    const contentid = tab.getAttribute('content-id');
     const content = document.getElementById(contentid);
 
-    if (content) {
-        content.classList.add('show'); // Adiciona a classe 'show' se o conteúdo existir
+    content.classList.add('show');
     }
-};
+
